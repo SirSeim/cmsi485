@@ -73,7 +73,7 @@
 
     ```
 
-    I believe Depth-First Iterative Deepening is the appropriate method to sue because depth-first is not going to be constrained with a whole internet of information that it could end up trying to traverse without getting anywhere close to the goal. It will still be memory efficient compared to breadth-first which will end up storing a lot of unnecessary paths and nodes. 
+    I believe Depth-First Iterative Deepening is the appropriate method to use because depth-first is not going to be constrained with a whole internet of information that it could end up trying to traverse without getting anywhere close to the goal. It will still be memory efficient compared to breadth-first which will end up storing a lot of unnecessary paths and nodes. 
 
 3.  _Explain why Depth-First Search Iterative Deepening is reasonably efficient. Why might it be preferable to use DFID rather than depth-first search?_
 
