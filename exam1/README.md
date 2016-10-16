@@ -24,10 +24,10 @@
     ![Graph](https://cdn.rawgit.com/sirseim/cmsi485/master/exam1/diagram1.svg)
 
     ###### Depth-First Search
-    ![Graph](diagram2.svg)
+    ![Graph](https://cdn.rawgit.com/sirseim/cmsi485/master/exam1/diagram2.svg)
 
     ###### Bredth-First Search
-    ![Graph](diagram3.svg)
+    ![Graph](https://cdn.rawgit.com/sirseim/cmsi485/master/exam1/diagram3.svg)
 
 2.  _Write a pseudo-code program that will take as input two Web page URLs and find a path of links from one to the other. What is an appropriate search strategy? Is bidirectional search a good idea? Could a search engine be used to implement a predecessor function?_
 
