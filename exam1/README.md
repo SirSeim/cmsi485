@@ -40,6 +40,8 @@
 
 3.  _Explain why Depth-First Search Iterative Deepening is reasonably efficient. Why might it be preferable to use DFID rather than depth-first search?_
 
+Depth-First Iterative Deepening (DFID) is a search method that tries to bring together the best of breadth-first and depth-first search. It works by repeatedly performing depth-first searches. What constrains each iteration is the depth of the search allowed. The depth of the search is how far away from the start node a particular node is. It gets its efficiency from its depth-first utilization, without running infinity down a path away from the goal. Becuase of its utilization of depth-first search, its also quite memory efficient.
+
 4.  _Bidirectional search must be able to determine when the frontiers intersect. For each of the following pairs of searches specify how to determine when the frontiers intersect:_
     1.  _Breadth-first search and depth-bounded depth-first search._
     2.  _Iterative deepening search and depth-bounded depth-first search._
