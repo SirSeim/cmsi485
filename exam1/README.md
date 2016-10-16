@@ -21,7 +21,7 @@
     10 (Goal) |  | WGCF
 
     ###### Graph
-    ![Graph](diagram1.svg)
+    ![Graph](https://cdn.rawgit.com/sirseim/cmsi485/master/exam1/diagram1.svg)
 
     ###### Depth-First Search
     ![Graph](diagram2.svg)
