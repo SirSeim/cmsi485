@@ -29,7 +29,9 @@
     ###### Bredth-First Search
     ![Graph](https://cdn.rawgit.com/sirseim/cmsi485/master/exam1/diagram3.svg)
 
-    Bredth-First Search _sucks_. **PERIOD** _EOL_
+    Bredth-First Search _sucks_. **PERIOD** _EOF_
+
+    In more detail, because this graph is quite small and finite, the problems with depth-first search do not result. Typically, a depth-first search would run into problems on sufficiently large graphs or infinite graphs. Therefore is the superior search for this problem.
 
 2.  _Write a pseudo-code program that will take as input two Web page URLs and find a path of links from one to the other. What is an appropriate search strategy? Is bidirectional search a good idea? Could a search engine be used to implement a predecessor function?_
 
