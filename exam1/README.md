@@ -81,6 +81,18 @@
 
 4.  _Bidirectional search must be able to determine when the frontiers intersect. For each of the following pairs of searches specify how to determine when the frontiers intersect:_
     1.  _Breadth-first search and depth-bounded depth-first search._
+
+        The breadth-first search expands out the target area that the depth-first search has to hit. When the depth-first search reaches the frontier currently established by the breadth-first search.
+
     2.  _Iterative deepening search and depth-bounded depth-first search._
+
+        Very similar to the breadth-first and depth-bounded depth-first, except iterative depth-first search would not have the complication of running infinitely in a direction away from the goal. The two searches would meet frontiers somewhere toward the middle.
+
     3.  _A* and depth-bounded depth-bounded search._
+
+        The depth-bounded search would establish a greater target area than just the goal node, and A* would navigate directedly toward the goal, eventually encountering the nodes traversed by the depth-bouned search.
+
     4.  _A* and A*_
+
+        As both searches are directed and focused, presuming the heuristic function is accurate enough, they would hit head-on, traversing the same node.
+
